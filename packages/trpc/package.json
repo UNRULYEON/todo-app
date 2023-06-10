@@ -1,0 +1,14 @@
+{
+  "name": "@todo-app/trpc",
+  "version": "0.0.0",
+  "scripts": {
+    "trpc:build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@trpc/server": "^10.29.1"
+  },
+  "devDpendencies": {
+    "typescript": "^5.0.2"
+  }
+}

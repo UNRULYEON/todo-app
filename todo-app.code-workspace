@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "web",
+      "path": "apps/web"
+    },
+    {
+      "name": "server",
+      "path": "apps/server"
+    },
+    {
+      "name": "trpc",
+      "path": "packages/trpc"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": ["todo-app", "web", "server", "trpc"],
+    "dotenv.enableAutocloaking": false
+  },
+  "extensions": {
+    "recommendations": ["orta.vscode-jest", "esbenp.prettier-vscode"]
+  }
+}
